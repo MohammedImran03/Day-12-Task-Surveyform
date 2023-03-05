@@ -1,0 +1,75 @@
+.NAMETAB{
+    position: relative;
+}
+.Name1{
+    position: absolute;
+    font-size: 13px;
+    }
+.Name2{
+    position: absolute;
+    left:390px;
+    font-size: 13px;
+}
+
+.form{
+    margin: 50px;
+    border: 2px solid rgb(247, 243, 243);
+}
+.Name{
+    display: flex;
+    gap: 40px;
+}
+.checked{
+    color: gold;
+}
+/* Satisfaction Ratings */
+.Satisfyrating{
+    font-size:0.75em;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.PurchaseSatisfaction{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+    padding: 5px;
+}
+.ServiceSatisfaction{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:24px;
+    padding: 5px;
+}
+.CompanyoverallSatisfaction{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+}
+/* Likes Ratings */
+.likeyrating{
+    font-size:0.75em;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.Buyagianlikes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+    padding: 5px;
+}
+.Recommendotherslikes{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+}
+.Recommendcompanylikes{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+    padding: 5px;
+}
